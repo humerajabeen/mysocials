@@ -1,0 +1,124 @@
+.rightbar-box{
+    flex: 3;
+    margin: 1rem;
+    /* border: 2px solid black; */
+}
+
+.rightbar{
+    height: 20rem;
+    border-radius: 14px;
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.7);
+}
+
+.card-rightbar img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.card-rightbar-name p{
+    padding-left: 0.5rem;
+}
+
+.card-rightbar-name{
+    display: flex;
+    padding: 15px;
+}
+
+.tops{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    margin-left: 4.5rem;
+    border: none;
+}
+
+.search[type=text] {
+    border: 3px solid #ffffff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 40%;
+    text-align: end;
+    padding: 0.2rem;
+  }
+
+.search[type=text]:focus {
+    border: 3px solid blue;
+    border-radius: 20px;
+  }
+
+.btn{
+    margin: auto;
+    width: max-content;
+}
+
+#btn1{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(37, 86, 246);
+    border: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    font-size: medium;
+    color: white;
+}
+
+#btn2{
+    width: 120px;
+    height: 30px;
+    border: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 15px;
+}
+
+.bday{
+    display: flex;
+    margin: 0.7rem;
+    padding: 0.7rem;
+    height: 3rem;
+}
+
+.bday img{
+    margin-right: 0.5rem;
+}
+
+.dp{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    /* position: relative; */
+}
+
+.dp img{
+    width: 60px;
+    height: 60px;
+    border-radius: 33px;
+}
+
+.rightbar-online{
+    flex: 3;
+    height: 35rem;
+    padding: 0.5rem;
+}
+
+.online-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    border: 2px;
+    background-color: limegreen;
+    position: absolute;
+    right: 25px;
+    
+}
+
+.names{
+    font-size: 18px;
+    margin: 1rem;
+}

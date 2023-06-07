@@ -1,0 +1,103 @@
+.post {
+    flex: 5.5;
+    border-radius: 14px;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.7);
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.card-top h3 {
+    margin-left: 1rem;
+}
+
+.card-top h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card-top h5 {
+    margin-left: 1.3rem;
+    color: rgb(112, 108, 108);
+}
+
+.card-top img {
+    width: 62px;
+    height: 62px;
+    border-radius: 35px;
+}
+
+.card-top-dot {
+    margin-left: 26rem;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.reactions {
+    display: flex;
+    margin: 0.4rem;
+    cursor: pointer;
+}
+
+.reactions img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#likes,
+#dislikes {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+}
+
+#likes{
+    color: blue;
+}
+
+#dislikes{
+    color: red;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    margin-left: 26rem;
+}
+
+.btn {
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#btn-container {
+    margin: 0.65rem;
+}
+
+#up {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.like-active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.dislike-active {
+    text-decoration: underline;
+    text-decoration-color: red;
+}

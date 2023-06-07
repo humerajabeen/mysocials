@@ -1,0 +1,105 @@
+.top-bar{
+    background-color: rgb(84, 208, 210);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.appname{
+    flex: 3;
+    color: rgb(255, 255, 255);
+    margin-left: 0.5rem;
+}
+
+.middle{
+    flex: 6;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon{
+    font-size: 25px;
+}
+
+#search-top-bar{
+    margin: 0.7rem;
+    width: 600px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 0.5rem;
+    font-size: medium;
+    border: none;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.right img{
+    cursor: pointer;
+    border-radius: 33px;
+    margin-left: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+.right img:hover{
+    display: initial;
+}
+
+@media(max-width: 950px) {
+    .right label {
+        display: initial;
+    }
+    .header {
+        padding: 20px 10%;
+    }
+
+    .header .navigation {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+
+    .header .navigation ul li {
+        width: 100%;
+
+    }
+
+    .header .navigation ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    .header .navigation ul li ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    .header .navigation ul li ul li span {
+        font-size: 10px;
+    }
+
+}
+
+h4{
+    color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
+#golive{
+    font-size: 17px;
+}
+
+#golive:hover{
+    color: rgb(219, 49, 49);
+}
